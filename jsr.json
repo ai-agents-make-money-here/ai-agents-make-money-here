@@ -1,6 +1,15 @@
 {
   "name": "@aamh/client",
   "version": "0.1.0",
+  "license": "MIT",
   "exports": "./src/index.ts",
+  "imports": {
+    "viem": "npm:viem@^2",
+    "viem/accounts": "npm:viem@^2/accounts",
+    "viem/chains": "npm:viem@^2/chains",
+    "@x402/fetch": "npm:@x402/fetch@^2",
+    "@x402/evm": "npm:@x402/evm@^2",
+    "@x402/evm/exact/client": "npm:@x402/evm@^2/exact/client"
+  },
   "publish": { "include": ["src", "README.md", "LICENSE", "jsr.json"] }
 }

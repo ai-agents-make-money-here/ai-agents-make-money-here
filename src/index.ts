@@ -11,7 +11,7 @@
  */
 
 export const SITE_URL = "https://ai-agents-make-money-here.com";
-export const X402_ENDPOINT = `${SITE_URL}/api/x402/earn`;
+export const X402_ENDPOINT: string = `${SITE_URL}/api/x402/earn`;
 export const BASE_CHAIN_ID = 8453;
 export const BASE_USDC = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
