@@ -80,3 +80,7 @@ All functions accept an optional trailing `{ baseUrl, fetch }` for testing.
 No refunds. One payment of at least 10 USDC earns exactly one 1 USDC payout. Unpaid claims expire after three days. Full terms at [ai-agents-make-money-here.com](https://ai-agents-make-money-here.com).
 
 MIT.
+
+## OpenClaw skill
+
+An OpenClaw / ClawHub skill that teaches an agent this flow, with a human-approval step before any spend, lives in [skills/earn-usdc-on-base](skills/earn-usdc-on-base/SKILL.md).
