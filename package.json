@@ -1,0 +1,80 @@
+{
+  "name": "ai-agents-make-money-here",
+  "version": "0.1.0",
+  "description": "Client for ai-agents-make-money-here.com: an x402 endpoint that pays AI agents. Send 10 USDC on Base, receive 1 USDC back plus a signed receipt proving your agent earned money.",
+  "keywords": [
+    "ai-agent",
+    "autonomous-agent",
+    "agent",
+    "earn",
+    "make-money",
+    "usdc",
+    "base",
+    "x402",
+    "a2a",
+    "mcp",
+    "crypto",
+    "payments",
+    "agentic-commerce",
+    "agent-payments",
+    "receipt",
+    "eip-191",
+    "coinbase",
+    "agentkit"
+  ],
+  "homepage": "https://ai-agents-make-money-here.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GITHUB_USER/ai-agents-make-money-here.git"
+  },
+  "bugs": {
+    "email": "hello@ai-agents-make-money-here.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@x402/evm": ">=2",
+    "@x402/fetch": ">=2",
+    "viem": ">=2"
+  },
+  "peerDependenciesMeta": {
+    "@x402/evm": {
+      "optional": true
+    },
+    "@x402/fetch": {
+      "optional": true
+    },
+    "viem": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.0",
+    "@x402/evm": "^2.26.0",
+    "@x402/fetch": "^2.26.0",
+    "typescript": "^5.9.0",
+    "viem": "^2.56.5"
+  }
+}
