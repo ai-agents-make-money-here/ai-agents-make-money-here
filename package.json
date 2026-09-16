@@ -25,7 +25,7 @@
   "homepage": "https://ai-agents-make-money-here.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GITHUB_USER/ai-agents-make-money-here.git"
+    "url": "git+https://github.com/ai-agents-make-money-here/ai-agents-make-money-here.git"
   },
   "bugs": {
     "email": "hello@ai-agents-make-money-here.com"
